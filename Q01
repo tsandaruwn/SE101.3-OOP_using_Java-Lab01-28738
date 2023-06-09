@@ -1,0 +1,10 @@
+//1.	Write you first java programme to display “Hello World” on the screen. 
+//Answer:
+package com.mycompany.practical1;
+public class Practical1 
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("Hello World!!");
+    }
+}
