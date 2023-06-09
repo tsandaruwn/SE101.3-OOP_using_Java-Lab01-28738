@@ -1,0 +1,30 @@
+ 3.	Write down a programme to get the following output using a for loop. Repeat the same example by using a while loop. 
+
+Executing Loop  0
+Executing Loop  1
+Executing Loop  2
+Executing Loop  3
+Executing Loop  4  
+
+Answer:
+
+package com.mycompany.practical1;
+public class Practical1 
+{
+    public static void main(String[] args) 
+    {
+        int i=0,j=0;
+        for(i=0;i<5;i++)
+        {
+            System.out.println("Executing Loop "+i);
+        }
+        
+        System.out.println("");
+        
+        while(j<5)
+        {
+            System.out.println("Executing Loop "+j);
+            j++;
+        }
+    }
+}
